@@ -7,4 +7,4 @@ The input to the algorithm are the SBML file(s) of the metabolic networks of org
 
 ## Output
 
-MetQuest generates a table, which consists of all the metabolites in the scope, and the corresponding sub-networks of lengths 0, .., cutoff.
+MetQuest generates a table, which consists of all the metabolites in the scope, and the corresponding sub-networks of lengths 0 till cutoff.
