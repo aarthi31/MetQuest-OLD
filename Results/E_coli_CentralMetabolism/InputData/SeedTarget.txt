@@ -1,0 +1,25 @@
+Source - glc_DASH_D_e
+
+Seed metabolites
+iJO1366 ACP_c
+iJO1366 adp_c
+iJO1366 atp_c
+iJO1366 co2_c
+iJO1366 coa_c
+iJO1366 h2o_c
+iJO1366 h2o_p
+iJO1366 h_c
+iJO1366 h_p
+iJO1366 nad_c
+iJO1366 nadh_c
+iJO1366 nadp_c
+iJO1366 nadph_c
+iJO1366 pi_c
+iJO1366 pi_p
+iJO1366 ppi_c
+
+Target
+iJO1366 pyr_c
+
+Cutoff
+15
