@@ -1,0 +1,1 @@
+This folder contains all the input data to generate diverse paths for catechol degradation
