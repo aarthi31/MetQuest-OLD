@@ -1,4 +1,4 @@
-#Contents of the files in current directory
+# Contents of the files in current directory
 
 1. DAGFinder_ecoliiJO-1.py - Main python file that contains the implementation of SubNetHunter. Consists of the list of source metabolites, target metabolites, seed metabolites, cutoff to generate the subnetworks and the number of subnetworks to be generated
 
