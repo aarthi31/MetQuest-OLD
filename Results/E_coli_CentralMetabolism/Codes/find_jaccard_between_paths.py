@@ -10,8 +10,8 @@ from matplotlib import pyplot as plt
 import numpy as np
 import collections
 import pickle
-import matplotlib.font_manager as fm
-import matplotlib as mpl
+#import matplotlib.font_manager as fm
+#import matplotlib as mpl
 
 def find_jaccard_between_paths(onlysrctotar):
     jaccard_values = []
@@ -31,18 +31,18 @@ if __name__ == '__main__':
     jaccard_values = find_jaccard_between_paths(onlysrctotar)
     with open('jaccard-values.pickle','w') as f:
         pickle.dump(jaccard_values,f)
-    csfont = {'fontname':'Comic Sans MS'}
-    hfont = {'fontname':'Helvetica'}
-    prop = fm.FontProperties(fname=path)
-    plt.rc('xtick',labelsize=36)
-    plt.rc('ytick',labelsize=36)
+    #csfont = {'fontname':'Comic Sans MS'}
+    #hfont = {'fontname':'Helvetica'}
+    #prop = fm.FontProperties(fname=path)
+    #plt.rc('xtick',labelsize=36)
+    #plt.rc('ytick',labelsize=36)
     plt.hist(jaccard_values, color = 'black', bins=np.arange(min(jaccard_values), max(jaccard_values) +0.025,0.025), alpha = 0.5)
-    plt.xlabel("Jaccard values", fontsize=36,fontproperties=prop)
-    plt.ylabel("Count",fontsize=36,fontproperties=prop)
+    plt.xlabel("Jaccard values", fontsize=24,fontproperties=prop)
+    plt.ylabel("Count",fontsize=24,fontproperties=prop)
     #plt.title("Histogram of jaccard values of the paths",fontsize=14,fontproperties=prop)
   #  plt.savefig("Histogram-jaccard.jpeg")
     paths_diff_len = []
     for item in onlysrctotar:
         paths_diff_len.append(len(item))
     numbers = collections.Counter(paths_diff_len)
-    plt.bar(numbers.keys(), numbers.values())
+    #plt.bar(numbers.keys(), numbers.values())
