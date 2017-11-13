@@ -7,8 +7,8 @@ The directed bipartite graph and the namemap can be read in python by using the 
 	```python
 	from networkx as import read_gpickle
 	from cPickle import load
-	G = read_gpickle("iJO1366.gpickle")
-	with open("iJO1366_namemap.pickle", "r") as f:
+	G = read_gpickle("iMM904.gpickle")
+	with open("iMM904_namemap.pickle", "r") as f:
 		namemap = load(f)
 	```
 
