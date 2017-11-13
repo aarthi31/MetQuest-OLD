@@ -7,4 +7,5 @@ This folder contains all the input data used to identify sub-networks in E. coli
 from networkx as import read_gpickle
 	G = read_gpickle("iJO1366.gpickle")
 ```
-
+3. List of seed metabolites including the source and the target metabolites
+4. Cutoff - 15
