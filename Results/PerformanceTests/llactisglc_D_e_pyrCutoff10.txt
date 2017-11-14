@@ -1,0 +1,13 @@
+1
+GAPD 	['Lactococcus_lactis_MG1363 pi_c', 'Lactococcus_lactis_MG1363 nad_c', 'Lactococcus_lactis_MG1363 g3p_c'] 	['Lactococcus_lactis_MG1363 13dpg_c', 'Lactococcus_lactis_MG1363 h_c', 'Lactococcus_lactis_MG1363 nadh_c']
+PGK 	['Lactococcus_lactis_MG1363 13dpg_c', 'Lactococcus_lactis_MG1363 adp_c'] 	['Lactococcus_lactis_MG1363 atp_c', 'Lactococcus_lactis_MG1363 3pg_c']
+PGM 	['Lactococcus_lactis_MG1363 3pg_c'] 	['Lactococcus_lactis_MG1363 2pg_c']
+RPI 	['Lactococcus_lactis_MG1363 r5p_c'] 	['Lactococcus_lactis_MG1363 ru5p_D_c']
+RPE 	['Lactococcus_lactis_MG1363 ru5p_D_c'] 	['Lactococcus_lactis_MG1363 xu5p_D_c']
+ENO 	['Lactococcus_lactis_MG1363 2pg_c'] 	['Lactococcus_lactis_MG1363 h2o_c', 'Lactococcus_lactis_MG1363 pep_c']
+NADN 	['Lactococcus_lactis_MG1363 h2o_c', 'Lactococcus_lactis_MG1363 nad_c'] 	['Lactococcus_lactis_MG1363 ncam_c', 'Lactococcus_lactis_MG1363 h_c', 'Lactococcus_lactis_MG1363 adprib_c']
+TKT1 	['Lactococcus_lactis_MG1363 r5p_c', 'Lactococcus_lactis_MG1363 xu5p_D_c'] 	['Lactococcus_lactis_MG1363 g3p_c', 'Lactococcus_lactis_MG1363 s7p_c']
+PYK 	['Lactococcus_lactis_MG1363 pep_c', 'Lactococcus_lactis_MG1363 h_c', 'Lactococcus_lactis_MG1363 adp_c'] 	['Lactococcus_lactis_MG1363 pyr_c', 'Lactococcus_lactis_MG1363 atp_c']
+ADPRDP 	['Lactococcus_lactis_MG1363 h2o_c', 'Lactococcus_lactis_MG1363 adprib_c'] 	['Lactococcus_lactis_MG1363 r5p_c', 'Lactococcus_lactis_MG1363 h_c', 'Lactococcus_lactis_MG1363 amp_c']
+
+

@@ -1,0 +1,18 @@
+1
+GAPD 	['iMM904 g3p_c', 'iMM904 pi_c', 'iMM904 nad_c'] 	['iMM904 nadh_c', 'iMM904 h_c', 'iMM904 13dpg_c']
+PGK 	['iMM904 13dpg_c', 'iMM904 adp_c'] 	['iMM904 3pg_c', 'iMM904 atp_c']
+RPI 	['iMM904 r5p_c'] 	['iMM904 ru5p_DASH_D_c']
+RPE 	['iMM904 ru5p_DASH_D_c'] 	['iMM904 xu5p_DASH_D_c']
+PYK 	['iMM904 pep_c', 'iMM904 h_c', 'iMM904 adp_c'] 	['iMM904 pyr_c', 'iMM904 atp_c']
+PYRt 	['iMM904 pyr_c'] 	['iMM904 pyr_e']
+HCO3E 	['iMM904 co2_c', 'iMM904 h2o_c'] 	['iMM904 hco3_c', 'iMM904 h_c']
+PC 	['iMM904 hco3_c', 'iMM904 pyr_c', 'iMM904 atp_c'] 	['iMM904 h_c', 'iMM904 adp_c', 'iMM904 pi_c', 'iMM904 oaa_c']
+PYRt2 	['iMM904 h_e', 'iMM904 pyr_e'] 	['iMM904 pyr_c', 'iMM904 h_c']
+ENO 	['iMM904 2pg_c'] 	['iMM904 pep_c', 'iMM904 h2o_c']
+AMPN 	['iMM904 h2o_c', 'iMM904 amp_c'] 	['iMM904 ade_c', 'iMM904 r5p_c']
+PGM 	['iMM904 3pg_c'] 	['iMM904 2pg_c']
+MDH 	['iMM904 nadh_c', 'iMM904 h_c', 'iMM904 oaa_c'] 	['iMM904 mal_DASH_L_c', 'iMM904 nad_c']
+MALt2r 	['iMM904 h_c', 'iMM904 mal_DASH_L_c'] 	['iMM904 h_e', 'iMM904 mal_DASH_L_e']
+TKT1 	['iMM904 xu5p_DASH_D_c', 'iMM904 r5p_c'] 	['iMM904 g3p_c', 'iMM904 s7p_c']
+
+

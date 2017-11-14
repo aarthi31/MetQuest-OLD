@@ -1,0 +1,78 @@
+1
+PPC 	['Ecoli_core_model pep_c', 'Ecoli_core_model co2_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model pi_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+PGL 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model h_c', 'Ecoli_core_model 6pgc_c']
+FBP 	['Ecoli_core_model fdp_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model pi_c', 'Ecoli_core_model f6p_c']
+PFK 	['Ecoli_core_model f6p_c', 'Ecoli_core_model atp_c'] 	['Ecoli_core_model fdp_c', 'Ecoli_core_model adp_c', 'Ecoli_core_model h_c']
+GND 	['Ecoli_core_model nadp_c', 'Ecoli_core_model 6pgc_c'] 	['Ecoli_core_model ru5p_D_c', 'Ecoli_core_model nadph_c', 'Ecoli_core_model co2_c']
+GLCpts 	['Ecoli_core_model pep_c', 'Ecoli_core_model glc_D_e'] 	['Ecoli_core_model pyr_c', 'Ecoli_core_model g6p_c']
+PGI 	['Ecoli_core_model f6p_c'] 	['Ecoli_core_model g6p_c']
+G6PDH2r 	['Ecoli_core_model nadp_c', 'Ecoli_core_model g6p_c'] 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h_c', 'Ecoli_core_model nadph_c']
+glc_D_e 	['glc_D_e'] 	['Ecoli_core_model glc_D_e']
+PGI 	['Ecoli_core_model g6p_c'] 	['Ecoli_core_model f6p_c']
+
+
+2
+PPC 	['Ecoli_core_model pep_c', 'Ecoli_core_model co2_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model pi_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+PGL 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model h_c', 'Ecoli_core_model 6pgc_c']
+GND 	['Ecoli_core_model nadp_c', 'Ecoli_core_model 6pgc_c'] 	['Ecoli_core_model ru5p_D_c', 'Ecoli_core_model nadph_c', 'Ecoli_core_model co2_c']
+GLCpts 	['Ecoli_core_model pep_c', 'Ecoli_core_model glc_D_e'] 	['Ecoli_core_model pyr_c', 'Ecoli_core_model g6p_c']
+PGI 	['Ecoli_core_model f6p_c'] 	['Ecoli_core_model g6p_c']
+CO2t 	['Ecoli_core_model co2_c'] 	['Ecoli_core_model co2_e']
+G6PDH2r 	['Ecoli_core_model nadp_c', 'Ecoli_core_model g6p_c'] 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h_c', 'Ecoli_core_model nadph_c']
+glc_D_e 	['glc_D_e'] 	['Ecoli_core_model glc_D_e']
+PGI 	['Ecoli_core_model g6p_c'] 	['Ecoli_core_model f6p_c']
+CO2t 	['Ecoli_core_model co2_e'] 	['Ecoli_core_model co2_c']
+
+
+3
+PPC 	['Ecoli_core_model pep_c', 'Ecoli_core_model co2_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model pi_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+PGL 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model h_c', 'Ecoli_core_model 6pgc_c']
+GND 	['Ecoli_core_model nadp_c', 'Ecoli_core_model 6pgc_c'] 	['Ecoli_core_model ru5p_D_c', 'Ecoli_core_model nadph_c', 'Ecoli_core_model co2_c']
+glc_D_e 	['glc_D_e'] 	['Ecoli_core_model glc_D_e']
+GLCpts 	['Ecoli_core_model pep_c', 'Ecoli_core_model glc_D_e'] 	['Ecoli_core_model pyr_c', 'Ecoli_core_model g6p_c']
+co2_e 	['co2_e'] 	['Ecoli_core_model co2_e']
+CO2t 	['Ecoli_core_model co2_c'] 	['Ecoli_core_model co2_e']
+G6PDH2r 	['Ecoli_core_model nadp_c', 'Ecoli_core_model g6p_c'] 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h_c', 'Ecoli_core_model nadph_c']
+co2_e 	['Ecoli_core_model co2_e'] 	['co2_e']
+CO2t 	['Ecoli_core_model co2_e'] 	['Ecoli_core_model co2_c']
+
+
+4
+PPC 	['Ecoli_core_model pep_c', 'Ecoli_core_model co2_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model pi_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+PGL 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model h_c', 'Ecoli_core_model 6pgc_c']
+GND 	['Ecoli_core_model nadp_c', 'Ecoli_core_model 6pgc_c'] 	['Ecoli_core_model ru5p_D_c', 'Ecoli_core_model nadph_c', 'Ecoli_core_model co2_c']
+GLCpts 	['Ecoli_core_model pep_c', 'Ecoli_core_model glc_D_e'] 	['Ecoli_core_model pyr_c', 'Ecoli_core_model g6p_c']
+PGI 	['Ecoli_core_model f6p_c'] 	['Ecoli_core_model g6p_c']
+MDH 	['Ecoli_core_model nadh_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c'] 	['Ecoli_core_model mal_L_c', 'Ecoli_core_model nad_c']
+G6PDH2r 	['Ecoli_core_model nadp_c', 'Ecoli_core_model g6p_c'] 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h_c', 'Ecoli_core_model nadph_c']
+glc_D_e 	['glc_D_e'] 	['Ecoli_core_model glc_D_e']
+PGI 	['Ecoli_core_model g6p_c'] 	['Ecoli_core_model f6p_c']
+MDH 	['Ecoli_core_model mal_L_c', 'Ecoli_core_model nad_c'] 	['Ecoli_core_model nadh_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+
+
+5
+PPC 	['Ecoli_core_model pep_c', 'Ecoli_core_model co2_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model pi_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+PGL 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model h_c', 'Ecoli_core_model 6pgc_c']
+MDH 	['Ecoli_core_model nadh_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c'] 	['Ecoli_core_model mal_L_c', 'Ecoli_core_model nad_c']
+GND 	['Ecoli_core_model nadp_c', 'Ecoli_core_model 6pgc_c'] 	['Ecoli_core_model ru5p_D_c', 'Ecoli_core_model nadph_c', 'Ecoli_core_model co2_c']
+GLCpts 	['Ecoli_core_model pep_c', 'Ecoli_core_model glc_D_e'] 	['Ecoli_core_model pyr_c', 'Ecoli_core_model g6p_c']
+MDH 	['Ecoli_core_model mal_L_c', 'Ecoli_core_model nad_c'] 	['Ecoli_core_model nadh_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+CO2t 	['Ecoli_core_model co2_c'] 	['Ecoli_core_model co2_e']
+G6PDH2r 	['Ecoli_core_model nadp_c', 'Ecoli_core_model g6p_c'] 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h_c', 'Ecoli_core_model nadph_c']
+glc_D_e 	['glc_D_e'] 	['Ecoli_core_model glc_D_e']
+CO2t 	['Ecoli_core_model co2_e'] 	['Ecoli_core_model co2_c']
+
+
+6
+PPC 	['Ecoli_core_model pep_c', 'Ecoli_core_model co2_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model pi_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+PGL 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model h_c', 'Ecoli_core_model 6pgc_c']
+FUM 	['Ecoli_core_model mal_L_c'] 	['Ecoli_core_model fum_c', 'Ecoli_core_model h2o_c']
+GND 	['Ecoli_core_model nadp_c', 'Ecoli_core_model 6pgc_c'] 	['Ecoli_core_model ru5p_D_c', 'Ecoli_core_model nadph_c', 'Ecoli_core_model co2_c']
+GLCpts 	['Ecoli_core_model pep_c', 'Ecoli_core_model glc_D_e'] 	['Ecoli_core_model pyr_c', 'Ecoli_core_model g6p_c']
+MDH 	['Ecoli_core_model nadh_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c'] 	['Ecoli_core_model mal_L_c', 'Ecoli_core_model nad_c']
+G6PDH2r 	['Ecoli_core_model nadp_c', 'Ecoli_core_model g6p_c'] 	['Ecoli_core_model 6pgl_c', 'Ecoli_core_model h_c', 'Ecoli_core_model nadph_c']
+FUM 	['Ecoli_core_model fum_c', 'Ecoli_core_model h2o_c'] 	['Ecoli_core_model mal_L_c']
+glc_D_e 	['glc_D_e'] 	['Ecoli_core_model glc_D_e']
+MDH 	['Ecoli_core_model mal_L_c', 'Ecoli_core_model nad_c'] 	['Ecoli_core_model nadh_c', 'Ecoli_core_model h_c', 'Ecoli_core_model oaa_c']
+
+
