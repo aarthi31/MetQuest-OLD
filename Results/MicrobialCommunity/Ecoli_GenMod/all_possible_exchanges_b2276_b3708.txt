@@ -1,0 +1,3395 @@
+set(['b3708 glyclt_c', 'b3708 atp_c', 'b2276 h2o_c', 'b2276 ppi_c', 'b2276 nad_c', 'b3708 nadh_c', 'b2276 nadh_c', 'b2276 coa_c', 'b3708 adp_c', 'b3708 coa_c', 'b3708 accoa_c', 'b2276 h2o_p', 'b2276 h_c', 'b3708 ACP_c', 'b2276 pi_c', 'b2276 adp_c', 'b2276 pi_p', 'b2276 ACP_c', 'b2276 atp_c', 'b3708 ppi_c', 'b3708 pi_p', 'b3708 nadp_c', 'b2276 nadp_c', 'b3708 nadph_c', 'b2276 h_p', 'b3708 pi_c', 'b3708 h_p', 'b2276 q8_c', 'b3708 h2o_c', 'b2276 accoa_c', 'b2276 glyclt_c', 'b3708 o2_c', 'b2276 nadph_c', 'b3708 h2o_p', 'b2276 co2_c', 'b3708 h_c'])
+
+Target Metabolite 	Exchange reaction ID 	Reactants 	Products
+val_L_e 	Org_b2276 ER11 	['b2276 val_L_e'] 	['val_L_e']
+
+
+glyc_R_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+
+
+b2276 xan_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 xan_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 xan_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 xan_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+
+
+b3708 mthgxl_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 mthgxl_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 mthgxl_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 mthgxl_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 mthgxl_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 mthgxl_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 mthgxl_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 mthgxl_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 dhap_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 dhap_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 dhap_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 dhap_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 dhap_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 dhap_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 dhap_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 dhap_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 3haACP_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 3haACP_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 3haACP_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 3haACP_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+dha_e 	Org_b2276 ER70 	['b2276 dha_e'] 	['dha_e']
+
+
+b2276 ile_L_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 ile_L_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 ile_L_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 ile_L_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ile_L_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 ile_L_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+pyr_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+pyr_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+pyr_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+pyr_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+pyr_e 	Org_b3708 ER28 	['b3708 pyr_e'] 	['pyr_e']
+pyr_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 akg_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 akg_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 akg_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 akg_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 akg_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 akg_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 akg_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 akg_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 akg_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 akg_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 akg_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 akg_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 ala_L_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ala_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 ala_L_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ala_L_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ala_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 ala_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 ala_L_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ala_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ala_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 ala_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 amp_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 amp_c 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 amp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 amp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 amp_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 amp_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 amp_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 amp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 amp_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 amp_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 amp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 amp_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 amp_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 amp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 amp_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 amp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 amp_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 amp_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 amp_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 amp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 amp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 amp_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 amp_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 amp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 amp_c 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 amp_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 amp_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 amp_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 amp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 amp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 amp_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 amp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 akg_p 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 akg_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 akg_p 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 akg_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+asn_L_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+
+
+b3708 succ_p 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 succ_p 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 succ_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 succ_p 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 succ_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 succ_p 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 succ_p 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 succ_p 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 lac_D_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 lac_D_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 lac_D_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 lac_D_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 lac_D_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 lac_D_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+xtsn_e 	Org_b3708 ER261 	['b3708 xtsn_e'] 	['xtsn_e']
+xtsn_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+xtsn_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+xtsn_e 	Org_b2276 ER261 	['b2276 xtsn_e'] 	['xtsn_e']
+
+
+b3708 cbp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 cbp_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 cbp_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 cbp_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 cbp_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 cbp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 cbp_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 cbp_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 lac_D_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 lac_D_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 lac_D_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 lac_D_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 lac_D_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 lac_D_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 lac_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 lac_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 lac_D_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 lac_D_p 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 lac_D_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 lac_D_p 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 lac_D_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 lac_D_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 lac_D_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 lac_D_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 1pyr5c_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 1pyr5c_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 1pyr5c_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 1pyr5c_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b2276 glu5sa_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 glu5sa_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 glu5sa_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 glu5sa_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 glu5sa_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 glu5sa_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 fum_e 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 fum_e 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+
+
+b3708 fum_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 fum_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 fum_c 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 fum_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 fum_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 fum_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 fum_c 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 fum_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 fum_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 fum_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 fum_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 fum_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 fum_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 fum_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 fum_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 fum_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 acg5p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 acg5p_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 acg5p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 acg5p_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 acg5p_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 acg5p_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 r5p_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 r5p_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 r5p_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 r5p_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 r5p_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 r5p_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 r5p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 r5p_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 r5p_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 r5p_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 r5p_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 r5p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 r5p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 r5p_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 r5p_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 r5p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 r5p_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 r5p_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 ggbutal_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 ggbutal_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 fum_p 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 fum_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 fum_p 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 fum_p 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 fum_p 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 fum_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+pro_L_e 	Org_b2276 ER76 	['b2276 pro_L_e'] 	['pro_L_e']
+
+
+b2276 ac_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 ac_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 ac_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 ac_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 ac_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ac_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 ac_e 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 ac_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ac_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 ac_e 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+
+
+b2276 3psme_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 3psme_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b2276 4abut_e 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b2276 4abut_e 	Org_b3708 ER39 	['b3708 4abut_e'] 	['4abut_e']
+b2276 4abut_e 	Org_b2276 ERR39 	['4abut_e'] 	['b2276 4abut_e']
+b2276 4abut_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b2276 4abut_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 4abut_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 4abut_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 4abut_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 4abut_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 4abut_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+etoh_e 	Org_b2276 ER87 	['b2276 etoh_e'] 	['etoh_e']
+
+
+b2276 akg_e 	Org_b2276 ERR197 	['akg_e'] 	['b2276 akg_e']
+b2276 akg_e 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b2276 akg_e 	Org_b3708 ER197 	['b3708 akg_e'] 	['akg_e']
+b2276 akg_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 pser_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 pser_L_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 pser_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 pser_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 pser_L_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 pser_L_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 pser_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 pser_L_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 pser_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 pser_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 acg5sa_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 acg5sa_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 acg5sa_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 acg5sa_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b2276 idp_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 idp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 idp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 idp_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 idp_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 idp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 idp_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 idp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 idp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 idp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 ins_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ins_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ins_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ins_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ins_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ins_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ins_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ins_p 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 ins_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ins_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ins_p 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 ins_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 gua_p 	Org_b2276 ER151 	['b2276 gua_e'] 	['gua_e']
+b3708 gua_p 	Org_b3708 ERR151 	['gua_e'] 	['b3708 gua_e']
+
+
+b3708 acon_C_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 acon_C_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 acon_C_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 acon_C_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 acon_C_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 acon_C_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 gua_e 	Org_b2276 ER151 	['b2276 gua_e'] 	['gua_e']
+b3708 gua_e 	Org_b3708 ERR151 	['gua_e'] 	['b3708 gua_e']
+
+
+b3708 ins_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ins_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ins_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ins_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ins_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ins_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ins_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ins_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 ins_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ins_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ins_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 ins_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 idp_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 idp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 idp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 idp_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 idp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 idp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 idp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 idp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 idp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 idp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 idp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 idp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 idp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 idp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+gua_e 	Org_b2276 ER151 	['b2276 gua_e'] 	['gua_e']
+
+
+b2276 acglu_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 acglu_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 acglu_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 acglu_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 acglu_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 acglu_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 urdglyc_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 urdglyc_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 nac_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 nac_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 nac_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 nac_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 nac_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 nac_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 nac_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 nac_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 nac_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 nac_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 3php_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 3php_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 3php_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 3php_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 3php_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 3php_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 db4p_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 db4p_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 db4p_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 db4p_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 db4p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 db4p_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 db4p_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 db4p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 db4p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 db4p_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 db4p_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 db4p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 xtsn_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 xtsn_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 xtsn_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 xtsn_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 xtsn_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 xtsn_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+thr_L_e 	Org_b2276 ER145 	['b2276 thr_L_e'] 	['thr_L_e']
+
+
+b3708 akg_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 akg_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 akg_e 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 akg_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b2276 prpp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 prpp_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 prpp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 prpp_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 prpp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 prpp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 xtsn_p 	Org_b2276 ERR261 	['xtsn_e'] 	['b2276 xtsn_e']
+b2276 xtsn_p 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 xtsn_p 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 xtsn_p 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 xtsn_p 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 xtsn_p 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 xtsn_p 	Org_b3708 ER261 	['b3708 xtsn_e'] 	['xtsn_e']
+b2276 xtsn_p 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 xtsn_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 xtsn_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 mmcoa_R_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 mmcoa_R_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 mmcoa_R_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 mmcoa_R_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 mmcoa_R_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 mmcoa_R_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b2276 alltt_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 alltt_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 prbamp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 prbamp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 prbamp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 prbamp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 prbamp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 prbamp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 prbamp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 prbamp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 prbamp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 prbamp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 prbamp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 prbamp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 glyclt_p 	Org_b3708 ERR50 	['glyclt_e'] 	['b3708 glyclt_e']
+b3708 glyclt_p 	Org_b2276 ER50 	['b2276 glyclt_e'] 	['glyclt_e']
+
+
+b3708 ppa_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 ppa_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 ppa_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 ppa_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 ppa_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 ppa_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 nh4_p 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 nh4_p 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 nh4_p 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 nh4_p 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 nh4_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 nh4_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 nh4_p 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 nh4_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 nh4_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 nh4_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 nh4_p 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 nh4_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 lac_D_p 	Org_b3708 ER284 	['b3708 lac_D_e'] 	['lac_D_e']
+b2276 lac_D_p 	Org_b2276 ERR284 	['lac_D_e'] 	['b2276 lac_D_e']
+b2276 lac_D_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 lac_D_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 lac_D_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 lac_D_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 phthr_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 phthr_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 phthr_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 phthr_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 phthr_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 phthr_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 phthr_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 phthr_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b2276 xmp_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 xmp_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 xmp_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 xmp_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+
+
+b3708 nh4_c 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 nh4_c 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 nh4_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 nh4_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 nh4_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 nh4_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 nh4_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 nh4_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 nh4_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 nh4_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 nh4_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 nh4_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 nh4_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 nh4_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 nh4_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 nh4_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 nh4_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 nh4_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 nh4_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 nh4_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 nh4_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 nh4_c 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 nh4_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 nh4_c 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 nh4_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 nh4_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 nh4_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 nh4_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 nh4_e 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 nh4_e 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 nh4_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 nh4_e 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 nh4_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 nh4_e 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 nh4_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 nh4_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 nh4_e 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 nh4_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 lac_D_c 	Org_b3708 ER284 	['b3708 lac_D_e'] 	['lac_D_e']
+b2276 lac_D_c 	Org_b2276 ERR284 	['lac_D_e'] 	['b2276 lac_D_e']
+b2276 lac_D_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 lac_D_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 lac_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 lac_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 lac_D_e 	Org_b3708 ER284 	['b3708 lac_D_e'] 	['lac_D_e']
+b2276 lac_D_e 	Org_b2276 ERR284 	['lac_D_e'] 	['b2276 lac_D_e']
+b2276 lac_D_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 lac_D_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 lac_D_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 lac_D_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 xu5p_D_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 xu5p_D_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 xu5p_D_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 xu5p_D_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 xu5p_D_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 xu5p_D_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 xu5p_D_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 xu5p_D_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 xu5p_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 xu5p_D_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 xu5p_D_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 xu5p_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 skm_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 skm_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+acser_e 	Org_b2276 ER196 	['b2276 acser_e'] 	['acser_e']
+
+
+b2276 nh4_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 nh4_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 nh4_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 nh4_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 nh4_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 nh4_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 nh4_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 nh4_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 nh4_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 nh4_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 nh4_e 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 nh4_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b2276 nh4_e 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 nh4_e 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b3708 but2eACP_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 but2eACP_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 but2eACP_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 but2eACP_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 cbasp_c 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 cbasp_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 cbasp_c 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 cbasp_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 cbasp_c 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 cbasp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 cbasp_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 cbasp_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 cbasp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 cbasp_c 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 cbasp_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 cbasp_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 gln_L_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 gln_L_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 gln_L_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 gln_L_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 gln_L_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 gln_L_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 gln_L_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 gln_L_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 gln_L_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 gln_L_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 gln_L_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 gln_L_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b2276 h2o2_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 h2o2_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 e4p_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 e4p_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+
+
+b2276 amp_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 amp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 amp_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 amp_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 amp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 amp_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 amp_c 	Org_b3708 ER277 	['b3708 alltn_e'] 	['alltn_e']
+b2276 amp_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 amp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 amp_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 amp_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 amp_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 amp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 amp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 amp_c 	Org_b2276 ERR277 	['alltn_e'] 	['b2276 alltn_e']
+b2276 amp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 3php_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 3php_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3php_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3php_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 rib_D_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 rib_D_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 rib_D_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 rib_D_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 rib_D_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 rib_D_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 rib_D_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 rib_D_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 rib_D_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 rib_D_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 rib_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 rib_D_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 rib_D_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 rib_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+glyald_e 	Org_b3708 ER281 	['b3708 glyald_e'] 	['glyald_e']
+glyald_e 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+glyald_e 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+glyald_e 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+
+
+b3708 phe_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 phe_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 phe_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 phe_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 nad_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 nad_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 nad_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 nad_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 nad_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 nad_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 nad_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 nad_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 nad_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 nad_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 nad_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 nad_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 actp_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 actp_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 actp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 actp_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 actp_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 actp_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 actp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 actp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 actp_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 actp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 actp_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 actp_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 kdo8p_c 	Org_b2276 ERR277 	['alltn_e'] 	['b2276 alltn_e']
+b2276 kdo8p_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 kdo8p_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 kdo8p_c 	Org_b3708 ER277 	['b3708 alltn_e'] 	['alltn_e']
+
+
+b3708 r1p_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 r1p_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 r1p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 r1p_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 r1p_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 r1p_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 r1p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 r1p_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 r1p_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 r1p_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 r1p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 r1p_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 r1p_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 r1p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 orn_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 orn_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 orn_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 orn_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b2276 asp_L_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b2276 asp_L_e 	Org_b3708 ER174 	['b3708 asp_L_e'] 	['asp_L_e']
+b2276 asp_L_e 	Org_b2276 ERR174 	['asp_L_e'] 	['b2276 asp_L_e']
+b2276 asp_L_e 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b3708 iasp_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 iasp_c 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 iasp_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 iasp_c 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 iasp_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 iasp_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+
+
+b3708 3dhq_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 3dhq_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3dhq_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3dhq_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 prbatp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 prbatp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 prbatp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 prbatp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 prbatp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 prbatp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 prbatp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 prbatp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 prbatp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 prbatp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 prbatp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 prbatp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+glyc_e 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+glyc_e 	Org_b3708 ER285 	['b3708 glyc_e'] 	['glyc_e']
+glyc_e 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+glyc_e 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+
+
+b3708 co2_p 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 co2_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 co2_p 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 co2_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 val_L_e 	Org_b2276 ER11 	['b2276 val_L_e'] 	['val_L_e']
+b3708 val_L_e 	Org_b3708 ERR11 	['val_L_e'] 	['b3708 val_L_e']
+
+
+b3708 val_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 val_L_c 	Org_b3708 ERR11 	['val_L_e'] 	['b3708 val_L_e']
+b3708 val_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 val_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 val_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 val_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 val_L_c 	Org_b2276 ER11 	['b2276 val_L_e'] 	['val_L_e']
+b3708 val_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 co2_e 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 co2_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 co2_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 co2_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 co2_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 co2_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 co2_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 co2_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 co2_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 co2_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 co2_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 co2_c 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 co2_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 co2_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 co2_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 co2_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 co2_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 co2_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 co2_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 co2_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 co2_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 co2_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 co2_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 co2_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 co2_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 co2_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 co2_c 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 co2_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 co2_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 co2_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 co2_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 co2_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 co2_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 co2_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 co2_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 co2_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+ser_L_e 	Org_b2276 ER299 	['b2276 ser_L_e'] 	['ser_L_e']
+
+
+b3708 acon_T_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 acon_T_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 acon_T_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 acon_T_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 val_L_p 	Org_b2276 ER11 	['b2276 val_L_e'] 	['val_L_e']
+b3708 val_L_p 	Org_b3708 ERR11 	['val_L_e'] 	['b3708 val_L_e']
+
+
+b3708 hom_L_p 	Org_b2276 ER36 	['b2276 hom_L_e'] 	['hom_L_e']
+b3708 hom_L_p 	Org_b3708 ERR36 	['hom_L_e'] 	['b3708 hom_L_e']
+
+
+b2276 g3p_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 g3p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 g3p_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 g3p_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 g3p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 g3p_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 pyr_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 pyr_c 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 pyr_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 pyr_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 pyr_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 pyr_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 pyr_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 pyr_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 pyr_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 pyr_c 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 pyr_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 pyr_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 pyr_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 pyr_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 pyr_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 pyr_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 pyr_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 pyr_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 micit_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 micit_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 micit_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 micit_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 micit_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 micit_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 micit_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 micit_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 micit_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 micit_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 hom_L_e 	Org_b2276 ER36 	['b2276 hom_L_e'] 	['hom_L_e']
+b3708 hom_L_e 	Org_b3708 ERR36 	['hom_L_e'] 	['b3708 hom_L_e']
+
+
+b2276 fprica_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 fprica_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 fprica_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 fprica_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+
+
+b3708 pyr_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 pyr_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 pyr_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 pyr_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 pyr_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 pyr_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 acorn_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 acorn_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+
+
+b3708 urate_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 urate_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 acg5p_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 acg5p_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 acg5p_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 acg5p_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 glyc_R_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 glyc_R_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+
+
+b3708 ppap_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 ppap_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 ppap_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 ppap_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+
+
+for_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+for_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+for_e 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+for_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+for_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+for_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+for_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+for_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+for_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+for_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+for_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+for_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+for_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+for_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 glyc_R_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 glyc_R_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+
+
+ac_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+ac_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+ac_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+ac_e 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+
+
+hom_L_e 	Org_b2276 ER36 	['b2276 hom_L_e'] 	['hom_L_e']
+
+
+glu_L_e 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+glu_L_e 	Org_b3708 ER38 	['b3708 glu_L_e'] 	['glu_L_e']
+glu_L_e 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+glu_L_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+glu_L_e 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+glu_L_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+glu_L_e 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+glu_L_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+glu_L_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+glu_L_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b2276 alltn_e 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 alltn_e 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b2276 r1p_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 r1p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 r1p_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 r1p_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 r1p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 r1p_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 r1p_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 r1p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 r1p_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 r1p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 ins_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 ins_p 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 ins_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 ins_p 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 ins_p 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 ins_p 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ins_p 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 ins_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ins_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 ins_p 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 ade_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 ade_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 ade_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 ade_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b2276 ade_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 ade_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 ade_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ade_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b2276 ade_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 ade_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ade_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 ade_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 ade_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 ade_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 ade_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 ade_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 ade_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 ade_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 ade_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 ade_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 ade_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b2276 ade_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 ade_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 ade_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 ade_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ade_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b2276 ade_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 ade_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ade_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 ade_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 orot5p_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 orot5p_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 orot5p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 orot5p_c 	Org_b2276 ERR87 	['etoh_e'] 	['b2276 etoh_e']
+b2276 orot5p_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 orot5p_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 orot5p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 orot5p_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 orot5p_c 	Org_b2276 ERR127 	['ins_e'] 	['b2276 ins_e']
+b2276 orot5p_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 orot5p_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 orot5p_c 	Org_b3708 ER87 	['b3708 etoh_e'] 	['etoh_e']
+b2276 orot5p_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+b2276 orot5p_c 	Org_b3708 ER127 	['b3708 ins_e'] 	['ins_e']
+
+
+b2276 ggptrc_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 ggptrc_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 ggptrc_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 ggptrc_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ggptrc_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 ggptrc_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 ins_e 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 ins_e 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 ins_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 ins_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 ins_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 ins_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 ins_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b2276 ins_e 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 ins_e 	Org_b3708 ER127 	['b3708 ins_e'] 	['ins_e']
+b2276 ins_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 ins_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ins_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 ins_e 	Org_b2276 ERR127 	['ins_e'] 	['b2276 ins_e']
+b2276 ins_e 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 ins_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ins_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 ins_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 ins_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+
+
+b2276 ins_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 ins_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 ins_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 ins_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 ins_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 ins_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 ins_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ins_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 ins_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 ins_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ins_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 ins_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 alltn_p 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 alltn_p 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b2276 ade_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 ade_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 ade_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 ade_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b2276 ade_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 ade_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 ade_p 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 ade_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b2276 ade_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 ade_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ade_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 ade_p 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 2mcit_c 	Org_b2276 ERR277 	['alltn_e'] 	['b2276 alltn_e']
+b2276 2mcit_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 2mcit_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 2mcit_c 	Org_b3708 ER277 	['b3708 alltn_e'] 	['alltn_e']
+
+
+12ppd_R_e 	Org_b2276 ER60 	['b2276 12ppd_R_e'] 	['12ppd_R_e']
+
+
+acald_e 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+
+
+b3708 2h3oppan_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 2h3oppan_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 2h3oppan_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 2h3oppan_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 2h3oppan_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 2h3oppan_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 2h3oppan_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 2h3oppan_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 2h3oppan_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 2h3oppan_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 2h3oppan_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 2h3oppan_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 glyc_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 glyc_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 glyc_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 glyc_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 glyc_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 glyc_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 eig3p_c 	Org_b3708 ERR261 	['xtsn_e'] 	['b3708 xtsn_e']
+b3708 eig3p_c 	Org_b2276 ER261 	['b2276 xtsn_e'] 	['xtsn_e']
+b3708 eig3p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 eig3p_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 eig3p_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 eig3p_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 eig3p_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 eig3p_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 eig3p_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 eig3p_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 eig3p_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 eig3p_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 eig3p_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 eig3p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 eig3p_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 eig3p_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+
+
+b2276 sucsal_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 sucsal_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+
+
+b3708 tagdp_D_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 tagdp_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 tagdp_D_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 tagdp_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 fdp_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 fdp_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+
+
+b3708 nmn_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 nmn_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 nmn_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 nmn_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 nmn_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 nmn_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 nmn_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 nmn_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 nmn_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 nmn_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 nmn_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 nmn_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 xtsn_e 	Org_b3708 ERR261 	['xtsn_e'] 	['b3708 xtsn_e']
+b3708 xtsn_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 xtsn_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 xtsn_e 	Org_b2276 ER261 	['b2276 xtsn_e'] 	['xtsn_e']
+
+
+b3708 xtsn_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 xtsn_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 ohpb_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 ohpb_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 ohpb_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 ohpb_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 ohpb_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ohpb_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 ohpb_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 ohpb_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 xtsn_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 xtsn_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+ins_e 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+ins_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+ins_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+ins_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+ins_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+ins_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+ins_e 	Org_b3708 ER127 	['b3708 ins_e'] 	['ins_e']
+ins_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+ins_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+ins_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+ins_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+ins_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+ins_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+ins_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+ins_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+ins_e 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+
+
+b3708 r15bp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 r15bp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 r15bp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 r15bp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 r15bp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 r15bp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 r15bp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 r15bp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 r15bp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 r15bp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 r15bp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 r15bp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+nh4_e 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+nh4_e 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+nh4_e 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+nh4_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+nh4_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+nh4_e 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+nh4_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+nh4_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+nh4_e 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+nh4_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 actACP_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 actACP_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 actACP_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 actACP_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 dhap_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 dhap_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 dhap_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 dhap_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 dhap_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 dhap_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 glyald_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 glyald_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 glyald_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 glyald_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 glyald_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 glyald_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 glyald_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 glyald_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 glyald_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 glyald_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 glyald_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 glyald_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 glyald_e 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 glyald_e 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 glyald_e 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 glyald_e 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+
+
+b3708 xmp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 xmp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 glyald_p 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 glyald_p 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 glyald_p 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 glyald_p 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 glyald_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 glyald_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 ac_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 ac_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 ac_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ac_p 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 ac_p 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 ac_p 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 ac_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ac_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ac_p 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 ac_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 ac_p 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 ac_p 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 citr_L_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 citr_L_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 citr_L_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 citr_L_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 citr_L_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 citr_L_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 citr_L_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 citr_L_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 citr_L_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 citr_L_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 citr_L_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 citr_L_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 hpyr_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 hpyr_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 hpyr_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 hpyr_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 hpyr_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 hpyr_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 3pg_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 3pg_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 3pg_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 3pg_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 3pg_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 3pg_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 ac_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ac_e 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 ac_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ac_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ac_e 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 ac_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 ac_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ac_c 	Org_b2276 ER87 	['b2276 etoh_e'] 	['etoh_e']
+b3708 ac_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 ac_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 ac_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 ac_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ac_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 ac_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 ac_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ac_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 ac_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 ac_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 ac_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 ac_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 ac_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 ac_c 	Org_b3708 ERR87 	['etoh_e'] 	['b3708 etoh_e']
+b3708 ac_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 ac_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 ac_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ac_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ac_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 ac_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 ru5p_D_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 ru5p_D_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ru5p_D_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 ru5p_D_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 ru5p_D_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ru5p_D_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ru5p_D_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ru5p_D_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ru5p_D_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ru5p_D_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ru5p_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ru5p_D_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ru5p_D_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 ru5p_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 glu_D_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 glu_D_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 glu_D_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 glu_D_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 glu_D_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 glu_D_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 3mob_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 3mob_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 3mob_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3mob_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3mob_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 3mob_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 4abut_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 4abut_e 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 4abut_e 	Org_b3708 ERR39 	['4abut_e'] 	['b3708 4abut_e']
+b3708 4abut_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 4abut_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 4abut_e 	Org_b2276 ER39 	['b2276 4abut_e'] 	['4abut_e']
+
+
+b3708 4abut_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 4abut_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 4abut_c 	Org_b3708 ERR39 	['4abut_e'] 	['b3708 4abut_e']
+b3708 4abut_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 4abut_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 4abut_c 	Org_b2276 ER39 	['b2276 4abut_e'] 	['4abut_e']
+
+
+b2276 cbp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 cbp_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 cbp_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 cbp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 cbp_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 cbp_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 cbp_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 cbp_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 4abut_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 4abut_p 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 4abut_p 	Org_b3708 ERR39 	['4abut_e'] 	['b3708 4abut_e']
+b3708 4abut_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 4abut_p 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 4abut_p 	Org_b2276 ER39 	['b2276 4abut_e'] 	['4abut_e']
+
+
+b3708 glyc3p_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 glyc3p_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 glyc3p_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 glyc3p_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 glyc3p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 glyc3p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 glyc3p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 glyc3p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 ser_L_p 	Org_b3708 ERR299 	['ser_L_e'] 	['b3708 ser_L_e']
+b3708 ser_L_p 	Org_b2276 ER299 	['b2276 ser_L_e'] 	['ser_L_e']
+
+
+b3708 h2_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 h2_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 h2_c 	Org_b2276 ER201 	['b2276 h2_e'] 	['h2_e']
+b3708 h2_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 h2_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 h2_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 h2_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 h2_c 	Org_b3708 ERR201 	['h2_e'] 	['b3708 h2_e']
+b3708 h2_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 h2_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 h2_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 h2_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 h2_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 h2_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 h2_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 h2_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 anth_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 anth_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 anth_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 anth_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 h2_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 h2_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 h2_e 	Org_b2276 ER201 	['b2276 h2_e'] 	['h2_e']
+b3708 h2_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 h2_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 h2_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 h2_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 h2_e 	Org_b3708 ERR201 	['h2_e'] 	['b3708 h2_e']
+b3708 h2_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 h2_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 h2_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 h2_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 h2_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 h2_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 h2_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 h2_e 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 sucsal_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 sucsal_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 sucsal_c 	Org_b3708 ERR39 	['4abut_e'] 	['b3708 4abut_e']
+b3708 sucsal_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 sucsal_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 sucsal_c 	Org_b2276 ER39 	['b2276 4abut_e'] 	['4abut_e']
+
+
+b3708 ser_L_e 	Org_b3708 ERR299 	['ser_L_e'] 	['b3708 ser_L_e']
+b3708 ser_L_e 	Org_b2276 ER299 	['b2276 ser_L_e'] 	['ser_L_e']
+
+
+b2276 glu5p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 glu5p_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 glu5p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 glu5p_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 glu5p_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 glu5p_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 h2_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 h2_p 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 h2_p 	Org_b2276 ER201 	['b2276 h2_e'] 	['h2_e']
+b3708 h2_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 h2_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 h2_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 h2_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 h2_p 	Org_b3708 ERR201 	['h2_e'] 	['b3708 h2_e']
+b3708 h2_p 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 h2_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 h2_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 h2_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 h2_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 h2_p 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 h2_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 h2_p 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 3psme_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 3psme_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 3psme_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3psme_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3psme_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 3psme_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 ac_p 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 ac_p 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 ac_p 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 ac_p 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 ac_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ac_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 imp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 imp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 imp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 imp_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 imp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 imp_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 imp_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 imp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 imp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 imp_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 ru5p_L_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ru5p_L_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 ru5p_L_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ru5p_L_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ru5p_L_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ru5p_L_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ru5p_L_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ru5p_L_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ru5p_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ru5p_L_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ru5p_L_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 ru5p_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 for_c 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+b2276 for_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 for_c 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+b2276 for_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 for_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 for_e 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+b2276 for_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b2276 for_e 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+b2276 for_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 for_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b2276 for_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 for_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 for_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b2276 for_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 for_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 for_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 for_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b2276 for_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 3c3hmp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 3c3hmp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 3c3hmp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3c3hmp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3c3hmp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 3c3hmp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 for_p 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+b2276 for_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 for_p 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+b2276 for_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 acglu_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 acglu_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 acglu_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 acglu_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b3708 alltn_p 	Org_b3708 ERR277 	['alltn_e'] 	['b3708 alltn_e']
+b3708 alltn_p 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b3708 alltn_p 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b3708 alltn_p 	Org_b2276 ER277 	['b2276 alltn_e'] 	['alltn_e']
+
+
+b2276 gmhep1p_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 gmhep1p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 gmhep1p_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 gmhep1p_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 gmhep1p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 gmhep1p_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 alltn_e 	Org_b3708 ERR277 	['alltn_e'] 	['b3708 alltn_e']
+b3708 alltn_e 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b3708 alltn_e 	Org_b2276 ER277 	['b2276 alltn_e'] 	['alltn_e']
+b3708 alltn_e 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b2276 dmlz_c 	Org_b2276 ERR261 	['xtsn_e'] 	['b2276 xtsn_e']
+b2276 dmlz_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 dmlz_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 dmlz_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 dmlz_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 dmlz_c 	Org_b2276 ERR87 	['etoh_e'] 	['b2276 etoh_e']
+b2276 dmlz_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 dmlz_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 dmlz_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 dmlz_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 dmlz_c 	Org_b3708 ER261 	['b3708 xtsn_e'] 	['xtsn_e']
+b2276 dmlz_c 	Org_b2276 ERR127 	['ins_e'] 	['b2276 ins_e']
+b2276 dmlz_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 dmlz_c 	Org_b3708 ER127 	['b3708 ins_e'] 	['ins_e']
+b2276 dmlz_c 	Org_b3708 ER87 	['b3708 etoh_e'] 	['etoh_e']
+b2276 dmlz_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+xan_e 	Org_b2276 ER283 	['b2276 xan_e'] 	['xan_e']
+
+
+lac_D_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+lac_D_e 	Org_b3708 ER284 	['b3708 lac_D_e'] 	['lac_D_e']
+lac_D_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+lac_D_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+lac_D_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+lac_D_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 aicar_c 	Org_b3708 ERR261 	['xtsn_e'] 	['b3708 xtsn_e']
+b3708 aicar_c 	Org_b2276 ER261 	['b2276 xtsn_e'] 	['xtsn_e']
+b3708 aicar_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 aicar_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 aicar_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 aicar_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 aicar_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 aicar_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 aicar_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 aicar_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 aicar_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 aicar_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 aicar_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 aicar_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 aicar_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 aicar_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+
+
+b2276 r5p_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 r5p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 r5p_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 r5p_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 r5p_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 r5p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 r5p_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 r5p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 r5p_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 r5p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 h2_e 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+b2276 h2_e 	Org_b2276 ERR201 	['h2_e'] 	['b2276 h2_e']
+b2276 h2_e 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+b2276 h2_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b2276 h2_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 h2_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 h2_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b2276 h2_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b2276 h2_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 h2_e 	Org_b3708 ER201 	['b3708 h2_e'] 	['h2_e']
+b2276 h2_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 h2_e 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b2276 h2_c 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+b2276 h2_c 	Org_b2276 ERR201 	['h2_e'] 	['b2276 h2_e']
+b2276 h2_c 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+b2276 h2_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b2276 h2_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 h2_c 	Org_b3708 ER201 	['b3708 h2_e'] 	['h2_e']
+b2276 h2_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 h2_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 h2o2_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 h2o2_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 h2o2_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 h2o2_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b2276 h2_p 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+b2276 h2_p 	Org_b2276 ERR201 	['h2_e'] 	['b2276 h2_e']
+b2276 h2_p 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+b2276 h2_p 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b2276 h2_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 h2_p 	Org_b3708 ER201 	['b3708 h2_e'] 	['h2_e']
+b2276 h2_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 h2_p 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 icit_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 icit_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 icit_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 icit_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 icit_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 icit_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 icit_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 icit_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 acACP_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 acACP_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 acACP_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 acACP_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 glu_L_p 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 glu_L_p 	Org_b3708 ER38 	['b3708 glu_L_e'] 	['glu_L_e']
+b2276 glu_L_p 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 glu_L_p 	Org_b2276 ERR38 	['glu_L_e'] 	['b2276 glu_L_e']
+b2276 glu_L_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b2276 glu_L_p 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 glu_L_p 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 glu_L_p 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 glu_L_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b2276 glu_L_p 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 glu5sa_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 glu5sa_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 glu5sa_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 glu5sa_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 f6p_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 f6p_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+
+
+b3708 malACP_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 malACP_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 malACP_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 malACP_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+hxan_e 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+hxan_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+hxan_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+hxan_e 	Org_b2276 ER6 	['b2276 hxan_e'] 	['hxan_e']
+hxan_e 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+hxan_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+hxan_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+hxan_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+hxan_e 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+hxan_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+hxan_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+hxan_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+hxan_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+hxan_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+hxan_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+hxan_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 pyr_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 pyr_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 pyr_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 pyr_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 pyr_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 pyr_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 glu_L_e 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 glu_L_e 	Org_b3708 ER38 	['b3708 glu_L_e'] 	['glu_L_e']
+b2276 glu_L_e 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 glu_L_e 	Org_b2276 ERR38 	['glu_L_e'] 	['b2276 glu_L_e']
+b2276 glu_L_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b2276 glu_L_e 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 glu_L_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 glu_L_e 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 glu_L_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b2276 glu_L_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 glu_L_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 glu_L_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 glu_L_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 glu_L_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 glu_L_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 glu_L_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 glu_L_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 glu_L_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 glu_L_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 glu_L_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 glu_L_c 	Org_b3708 ER277 	['b3708 alltn_e'] 	['alltn_e']
+b2276 glu_L_c 	Org_b2276 ERR277 	['alltn_e'] 	['b2276 alltn_e']
+b2276 glu_L_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 glu_L_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 succ_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 succ_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 succ_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 succ_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 succ_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 succ_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 succ_c 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 succ_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 succ_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 succ_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 succ_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 succ_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 succ_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 succ_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 succ_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 succ_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 succ_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 succ_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 succ_c 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 succ_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 succ_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 succ_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 succ_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 succ_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 succ_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 succ_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 succ_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 succ_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 succ_e 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 succ_e 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+
+
+b2276 hxan_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 hxan_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 hxan_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 hxan_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 hxan_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 hxan_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 hxan_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 hxan_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 hxan_e 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b2276 hxan_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 hxan_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 hxan_e 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b2276 hxan_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 hxan_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b2276 hxan_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 hxan_e 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 hxan_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 hxan_e 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 hxan_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b2276 hxan_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 hxan_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 hxan_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b2276 hxan_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 hxan_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+
+
+b2276 gmhep7p_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 gmhep7p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 gmhep7p_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 gmhep7p_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 gmhep7p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 gmhep7p_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b2276 asn_L_p 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 asn_L_p 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+
+
+b2276 iasp_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 iasp_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 glu5p_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 glu5p_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 glu5p_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 glu5p_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b3708 ins_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 ins_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ins_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ins_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 ins_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ins_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ins_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ins_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ins_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ins_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 ins_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ins_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ins_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 ins_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 asn_L_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 asn_L_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 asn_L_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 asn_L_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 asn_L_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 asn_L_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 asn_L_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 asn_L_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 asn_L_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 asn_L_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 asn_L_c 	Org_b3708 ER277 	['b3708 alltn_e'] 	['alltn_e']
+b2276 asn_L_c 	Org_b2276 ERR277 	['alltn_e'] 	['b2276 alltn_e']
+b2276 asn_L_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 asn_L_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b2276 adn_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 adn_p 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 adn_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 adn_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 adn_p 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 adn_p 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 adn_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 adn_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 adn_p 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 adn_p 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 adn_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 adn_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 adn_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 adn_p 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+oxam_c 	Org_b2276 ER65 	['b2276 oxam_c'] 	['oxam_c']
+oxam_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+oxam_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 3dhsk_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 3dhsk_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3dhsk_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3dhsk_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 adn_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 adn_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 adn_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 adn_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 adn_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 adn_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 adn_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 adn_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 adn_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 adn_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 adn_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 adn_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 adn_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 adn_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 adn_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 adn_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 lald_D_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 lald_D_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 lald_D_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 lald_D_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 lald_D_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 lald_D_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 lald_D_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 lald_D_c 	Org_b3708 ERR60 	['12ppd_R_e'] 	['b3708 12ppd_R_e']
+b3708 lald_D_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 lald_D_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 lald_D_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 lald_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 lald_D_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 lald_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 lald_D_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 lald_D_c 	Org_b2276 ER60 	['b2276 12ppd_R_e'] 	['12ppd_R_e']
+
+
+b2276 adn_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 adn_e 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 adn_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 adn_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 adn_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b2276 adn_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 adn_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 adn_e 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 adn_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 adn_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 adn_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 adn_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 adn_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b2276 adn_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 quln_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 quln_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 quln_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 quln_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+
+
+b3708 for_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 for_p 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 for_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 for_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 for_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 for_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 for_p 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 for_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 for_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 for_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 for_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 for_p 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 for_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 for_p 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 23dhmb_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 23dhmb_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 23dhmb_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 23dhmb_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 23dhmb_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 23dhmb_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 dcamp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 dcamp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 dcamp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 dcamp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 for_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 for_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 for_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 for_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 for_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 for_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 for_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 for_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 for_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 for_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 for_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 for_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 for_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 for_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 for_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 for_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 for_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 for_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 for_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 for_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 for_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 for_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 for_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 for_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 for_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 for_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 for_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 for_e 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b2276 oxur_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 oxur_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 2dh3dgal6p_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 2dh3dgal6p_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 2dh3dgal6p_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 2dh3dgal6p_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 2dh3dgal6p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 2dh3dgal6p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 xan_c 	Org_b2276 ER283 	['b2276 xan_e'] 	['xan_e']
+b3708 xan_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 xan_c 	Org_b3708 ERR283 	['xan_e'] 	['b3708 xan_e']
+b3708 xan_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 xan_e 	Org_b2276 ER283 	['b2276 xan_e'] 	['xan_e']
+b3708 xan_e 	Org_b3708 ERR283 	['xan_e'] 	['b3708 xan_e']
+
+
+b3708 xan_p 	Org_b2276 ER283 	['b2276 xan_e'] 	['xan_e']
+b3708 xan_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 xan_p 	Org_b3708 ERR283 	['xan_e'] 	['b3708 xan_e']
+b3708 xan_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 2mcit_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 2mcit_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 2mcit_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 2mcit_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 2mcit_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 2mcit_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 2mcit_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 2mcit_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 3c4mop_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 3c4mop_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 3c4mop_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 3c4mop_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 3c4mop_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3c4mop_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 3c4mop_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 3c4mop_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 3c4mop_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3c4mop_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 3c4mop_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 3c4mop_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 3c4mop_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 3c4mop_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 glyclt_e 	Org_b3708 ER50 	['b3708 glyclt_e'] 	['glyclt_e']
+b2276 glyclt_e 	Org_b2276 ERR50 	['glyclt_e'] 	['b2276 glyclt_e']
+
+
+b2276 leu_L_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 leu_L_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 leu_L_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 leu_L_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 leu_L_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 leu_L_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 glyclt_p 	Org_b3708 ER50 	['b3708 glyclt_e'] 	['glyclt_e']
+b2276 glyclt_p 	Org_b2276 ERR50 	['glyclt_e'] 	['b2276 glyclt_e']
+
+
+b2276 gmhep17bp_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 gmhep17bp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 gmhep17bp_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 gmhep17bp_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 gmhep17bp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 gmhep17bp_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 oaa_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 oaa_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 oaa_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 oaa_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 oaa_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 oaa_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 oaa_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 oaa_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 oaa_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 oaa_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 oaa_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 oaa_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 oaa_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 oaa_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 oaa_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 oaa_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 oaa_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 oaa_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 glx_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 glx_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 glx_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 glx_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b2276 2dda7p_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 2dda7p_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 glyc_R_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 glyc_R_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+
+
+b3708 alac_S_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 alac_S_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 alac_S_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 alac_S_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 alac_S_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 alac_S_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 mthgxl_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 mthgxl_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 2me4p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 2me4p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 mmcoa_S_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 mmcoa_S_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 mmcoa_S_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 mmcoa_S_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 mmcoa_S_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 mmcoa_S_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 12ppd_R_e 	Org_b3708 ERR60 	['12ppd_R_e'] 	['b3708 12ppd_R_e']
+b3708 12ppd_R_e 	Org_b2276 ER60 	['b2276 12ppd_R_e'] 	['12ppd_R_e']
+
+
+b3708 12ppd_R_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 12ppd_R_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 12ppd_R_c 	Org_b3708 ERR60 	['12ppd_R_e'] 	['b3708 12ppd_R_e']
+b3708 12ppd_R_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 12ppd_R_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 12ppd_R_c 	Org_b2276 ER60 	['b2276 12ppd_R_e'] 	['12ppd_R_e']
+
+
+b3708 asn_L_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 asn_L_e 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b3708 asn_L_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 asn_L_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 asn_L_c 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 asn_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 asn_L_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 asn_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 asn_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 asn_L_c 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 asn_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 asn_L_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+
+
+b3708 12ppd_R_p 	Org_b3708 ERR60 	['12ppd_R_e'] 	['b3708 12ppd_R_e']
+b3708 12ppd_R_p 	Org_b2276 ER60 	['b2276 12ppd_R_e'] 	['12ppd_R_e']
+
+
+b3708 asn_L_p 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 asn_L_p 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b3708 prfp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 prfp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 prfp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 prfp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 prfp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 prfp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 prfp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 prfp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 prfp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 prfp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 prfp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 prfp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 leu_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 leu_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 leu_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 leu_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 leu_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 leu_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+adn_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+adn_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+adn_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+adn_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+adn_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+adn_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+adn_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+adn_e 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+adn_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+adn_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+adn_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+adn_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+adn_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+adn_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 fprica_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 fprica_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 fprica_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 fprica_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 fprica_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 fprica_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 fprica_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 fprica_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 fprica_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 fprica_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 fprica_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 fprica_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 co2_p 	Org_b2276 ERR91 	['co2_e'] 	['b2276 co2_e']
+b2276 co2_p 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b2276 co2_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 co2_p 	Org_b3708 ER91 	['b3708 co2_e'] 	['co2_e']
+b2276 co2_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 co2_p 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b2276 xtsn_e 	Org_b2276 ERR261 	['xtsn_e'] 	['b2276 xtsn_e']
+b2276 xtsn_e 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 xtsn_e 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 xtsn_e 	Org_b3708 ER261 	['b3708 xtsn_e'] 	['xtsn_e']
+b2276 xtsn_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 xtsn_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 co2_e 	Org_b2276 ERR91 	['co2_e'] 	['b2276 co2_e']
+b2276 co2_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b2276 co2_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 co2_e 	Org_b3708 ER91 	['b3708 co2_e'] 	['co2_e']
+b2276 co2_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 co2_e 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 oxur_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 oxur_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 oxur_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 oxur_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 oxur_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 oxur_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 oxur_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 oxur_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 oxur_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 oxur_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 malcoa_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 malcoa_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 malcoa_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 malcoa_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 kdo8p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 kdo8p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 kdo8p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 kdo8p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 butACP_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 butACP_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 butACP_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 butACP_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 rib_D_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b2276 rib_D_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 rib_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 rib_D_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 rib_D_c 	Org_b3708 ER6 	['b3708 hxan_e'] 	['hxan_e']
+b2276 rib_D_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 rib_D_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 rib_D_c 	Org_b2276 ERR6 	['hxan_e'] 	['b2276 hxan_e']
+b2276 rib_D_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 rib_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 rib_D_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b2276 rib_D_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 asp_L_p 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 asp_L_p 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 asp_L_p 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 asp_L_p 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+
+
+b2276 alltn_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 alltn_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 3pg_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 3pg_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 3pg_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3pg_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3pg_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 3pg_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 3c2hmp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 3c2hmp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 3c2hmp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 3c2hmp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 3c2hmp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 3c2hmp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 2ippm_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 2ippm_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 2ippm_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 2ippm_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 2ippm_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 2ippm_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 succoa_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 succoa_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 succoa_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 succoa_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 succoa_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+b3708 succoa_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 succoa_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 succoa_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 succoa_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 succoa_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 succoa_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 succoa_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 succoa_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 succoa_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 succoa_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 succoa_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 glyc_e 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 glyc_e 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 glyc_e 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 glyc_e 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+
+
+b3708 thr_L_p 	Org_b2276 ER145 	['b2276 thr_L_e'] 	['thr_L_e']
+b3708 thr_L_p 	Org_b3708 ERR145 	['thr_L_e'] 	['b3708 thr_L_e']
+
+
+b3708 thr_L_e 	Org_b3708 ERR145 	['thr_L_e'] 	['b3708 thr_L_e']
+b3708 thr_L_e 	Org_b2276 ER145 	['b2276 thr_L_e'] 	['thr_L_e']
+
+
+b3708 glyc_p 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 glyc_p 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 glyc_p 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 glyc_p 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 glyc_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 glyc_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 hxan_e 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 hxan_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 hxan_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 hxan_e 	Org_b2276 ER6 	['b2276 hxan_e'] 	['hxan_e']
+b3708 hxan_e 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 hxan_e 	Org_b3708 ERR6 	['hxan_e'] 	['b3708 hxan_e']
+b3708 hxan_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 hxan_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 hxan_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 hxan_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 hxan_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 hxan_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 hxan_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 hxan_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 hxan_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 hxan_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+h2_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+h2_e 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+h2_e 	Org_b2276 ER201 	['b2276 h2_e'] 	['h2_e']
+h2_e 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+h2_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+h2_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+h2_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+h2_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+h2_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+h2_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+h2_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+h2_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+h2_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+h2_e 	Org_b3708 ER201 	['b3708 h2_e'] 	['h2_e']
+h2_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+h2_e 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+
+
+b3708 g3p_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 g3p_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 g3p_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 g3p_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 g3p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 g3p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 g3p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 g3p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 hxan_c 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 hxan_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 hxan_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 hxan_c 	Org_b2276 ER6 	['b2276 hxan_e'] 	['hxan_e']
+b3708 hxan_c 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 hxan_c 	Org_b3708 ERR6 	['hxan_e'] 	['b3708 hxan_e']
+b3708 hxan_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 hxan_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 hxan_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 hxan_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 hxan_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 hxan_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 hxan_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 hxan_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 hxan_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 hxan_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 2dda7p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 2dda7p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 2dda7p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 2dda7p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 2pg_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 2pg_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 2pg_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 2pg_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 2pg_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 2pg_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 hxan_p 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 hxan_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 hxan_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 hxan_p 	Org_b2276 ER6 	['b2276 hxan_e'] 	['hxan_e']
+b3708 hxan_p 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 hxan_p 	Org_b3708 ERR6 	['hxan_e'] 	['b3708 hxan_e']
+b3708 hxan_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 hxan_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 hxan_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 hxan_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 hxan_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 hxan_p 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 hxan_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 hxan_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 hxan_p 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 hxan_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 q8h2_c 	Org_b3708 ER30 	['b3708 for_e'] 	['for_e']
+b2276 q8h2_c 	Org_b3708 ER284 	['b3708 lac_D_e'] 	['lac_D_e']
+b2276 q8h2_c 	Org_b2276 ERR201 	['h2_e'] 	['b2276 h2_e']
+b2276 q8h2_c 	Org_b2276 ERR284 	['lac_D_e'] 	['b2276 lac_D_e']
+b2276 q8h2_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 q8h2_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b2276 q8h2_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 q8h2_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 q8h2_c 	Org_b3708 ER201 	['b3708 h2_e'] 	['h2_e']
+b2276 q8h2_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b2276 q8h2_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b2276 q8h2_c 	Org_b2276 ERR30 	['for_e'] 	['b2276 for_e']
+
+
+fum_e 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+
+
+b3708 adprib_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 adprib_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 adprib_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 adprib_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 adprib_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 adprib_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 adprib_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 adprib_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 adprib_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 adprib_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 adprib_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 adprib_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b2276 dcamp_c 	Org_b3708 ER127 	['b3708 ins_e'] 	['ins_e']
+b2276 dcamp_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 dcamp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 dcamp_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 dcamp_c 	Org_b2276 ERR87 	['etoh_e'] 	['b2276 etoh_e']
+b2276 dcamp_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 dcamp_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 dcamp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 dcamp_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 dcamp_c 	Org_b2276 ERR127 	['ins_e'] 	['b2276 ins_e']
+b2276 dcamp_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 dcamp_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 dcamp_c 	Org_b3708 ER87 	['b3708 etoh_e'] 	['etoh_e']
+b2276 dcamp_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 glyclt_e 	Org_b3708 ERR50 	['glyclt_e'] 	['b3708 glyclt_e']
+b3708 glyclt_e 	Org_b2276 ER50 	['b2276 glyclt_e'] 	['glyclt_e']
+
+
+b3708 ala_B_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 ala_B_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 ala_B_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 ala_B_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b2276 succ_e 	Org_b2276 ERR184 	['succ_e'] 	['b2276 succ_e']
+b2276 succ_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b2276 succ_e 	Org_b3708 ER184 	['b3708 succ_e'] 	['succ_e']
+b2276 succ_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 ncam_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 ncam_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 ncam_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 ncam_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 ncam_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ncam_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 ncam_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 ncam_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ncam_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ncam_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 ncam_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 ncam_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 gln_L_c 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 gln_L_c 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 gln_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 gln_L_c 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 gln_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 gln_L_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 gln_L_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 gln_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 gln_L_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 gln_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 gln_L_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 gln_L_c 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 gln_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 gln_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 gln_L_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 gln_L_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+
+
+b3708 13dpg_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 13dpg_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 13dpg_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 13dpg_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 13dpg_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 13dpg_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 13dpg_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 13dpg_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 pep_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 pep_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 pep_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 pep_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 pep_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 pep_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+4abut_e 	Org_b3708 ER39 	['b3708 4abut_e'] 	['4abut_e']
+4abut_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+4abut_e 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+4abut_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+4abut_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+4abut_e 	Org_b2276 ER39 	['b2276 4abut_e'] 	['4abut_e']
+
+
+ade_e 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+ade_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+ade_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+ade_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+ade_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+ade_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+ade_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+ade_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+ade_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+ade_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+ade_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+ade_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 pram_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 pram_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 pram_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 pram_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 pram_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 pram_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b2276 o2s_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 o2s_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+b3708 4per_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 4per_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 4per_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 4per_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 4per_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 4per_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 4per_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 4per_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 34hpp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 34hpp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 dxyl5p_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 dxyl5p_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 dxyl5p_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 dxyl5p_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 dxyl5p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 dxyl5p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+co2_e 	Org_b3708 ER91 	['b3708 co2_e'] 	['co2_e']
+co2_e 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+co2_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+co2_e 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+co2_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 s7p_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 s7p_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 s7p_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 s7p_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 s7p_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 s7p_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 ade_e 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 ade_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ade_e 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 ade_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ade_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ade_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ade_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ade_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ade_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ade_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ade_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ade_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 ade_c 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 ade_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 ade_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ade_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 ade_c 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 ade_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 ade_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ade_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ade_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ade_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ade_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ade_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ade_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ade_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ade_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 ade_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 glu_L_e 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b3708 glu_L_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 glu_L_e 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 glu_L_e 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b3708 glu_L_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 glu_L_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 glu_L_c 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 glu_L_c 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 glu_L_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 glu_L_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b3708 glu_L_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b3708 glu_L_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b3708 glu_L_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b3708 glu_L_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 glu_L_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 glu_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 glu_L_c 	Org_b3708 ERR39 	['4abut_e'] 	['b3708 4abut_e']
+b3708 glu_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 glu_L_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 glu_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 glu_L_c 	Org_b2276 ER39 	['b2276 4abut_e'] 	['4abut_e']
+b3708 glu_L_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 glu_L_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 glu_L_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 glu_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 glu_L_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b3708 glu_L_c 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 glu_L_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b3708 glu_L_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 glu_L_c 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 glu_L_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 glu_L_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 glu_L_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b3708 glu_L_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 ade_p 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 ade_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ade_p 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 ade_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ade_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ade_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ade_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ade_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ade_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ade_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ade_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ade_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 glu_L_p 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b3708 glu_L_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 glu_L_p 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 glu_L_p 	Org_b3708 ERR39 	['4abut_e'] 	['b3708 4abut_e']
+b3708 glu_L_p 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b3708 glu_L_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 glu_L_p 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 glu_L_p 	Org_b2276 ER39 	['b2276 4abut_e'] 	['4abut_e']
+
+
+b3708 acald_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 acald_c 	Org_b2276 ER87 	['b2276 etoh_e'] 	['etoh_e']
+b3708 acald_c 	Org_b3708 ERR87 	['etoh_e'] 	['b3708 etoh_e']
+b3708 acald_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 acald_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 acald_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 acald_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 acald_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 acald_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 acald_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 acald_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 acald_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 acald_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 acald_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 acald_e 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 acald_e 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+
+
+b3708 acald_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 acald_p 	Org_b2276 ER87 	['b2276 etoh_e'] 	['etoh_e']
+b3708 acald_p 	Org_b3708 ERR87 	['etoh_e'] 	['b3708 etoh_e']
+b3708 acald_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 imp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 imp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 imp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 imp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 imp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 imp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 imp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 imp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 imp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 imp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 imp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 imp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 dhor_S_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 dhor_S_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+
+
+b3708 4adcho_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 4adcho_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 4adcho_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 4adcho_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 dha_c 	Org_b2276 ER70 	['b2276 dha_e'] 	['dha_e']
+b3708 dha_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 dha_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 dha_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 dha_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 dha_c 	Org_b3708 ERR70 	['dha_e'] 	['b3708 dha_e']
+b3708 dha_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 dha_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 dha_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 dha_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 dha_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 dha_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 dha_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 dha_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 cit_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 cit_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 cit_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 cit_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 dha_e 	Org_b3708 ERR70 	['dha_e'] 	['b3708 dha_e']
+b3708 dha_e 	Org_b2276 ER70 	['b2276 dha_e'] 	['dha_e']
+b3708 dha_e 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 dha_e 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+
+
+b3708 dnad_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 dnad_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 dnad_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 dnad_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 dnad_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 dnad_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 nicrnt_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 nicrnt_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 nicrnt_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 nicrnt_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 nicrnt_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 nicrnt_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 nicrnt_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 nicrnt_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 nicrnt_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 nicrnt_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 dha_p 	Org_b2276 ER70 	['b2276 dha_e'] 	['dha_e']
+b3708 dha_p 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 dha_p 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 dha_p 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 dha_p 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+b3708 dha_p 	Org_b3708 ERR70 	['dha_e'] 	['b3708 dha_e']
+b3708 dha_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 dha_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 oxam_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 oxam_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+
+
+glyclt_e 	Org_b3708 ER50 	['b3708 glyclt_e'] 	['glyclt_e']
+glyclt_e 	Org_b2276 ER50 	['b2276 glyclt_e'] 	['glyclt_e']
+
+
+asp_L_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+asp_L_e 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+asp_L_e 	Org_b3708 ER174 	['b3708 asp_L_e'] 	['asp_L_e']
+asp_L_e 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+succ_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+succ_e 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+succ_e 	Org_b3708 ER184 	['b3708 succ_e'] 	['succ_e']
+succ_e 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+
+
+b3708 adn_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 adn_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 adn_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 adn_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 adn_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 adn_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 adn_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 adn_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 adn_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 adn_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 adn_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 adn_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 adn_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 adn_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 hco3_c 	Org_b2276 ER30 	['b2276 for_e'] 	['for_e']
+b3708 hco3_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 hco3_c 	Org_b3708 ERR30 	['for_e'] 	['b3708 for_e']
+b3708 hco3_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 adn_e 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b3708 adn_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 adn_e 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 adn_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 adn_e 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 adn_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 adn_e 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 adn_e 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b3708 adn_e 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 adn_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 adn_e 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 adn_e 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 adn_e 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 adn_e 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+akg_e 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+akg_e 	Org_b3708 ER197 	['b3708 akg_e'] 	['akg_e']
+akg_e 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+akg_e 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b3708 mal_L_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 mal_L_c 	Org_b2276 ER3 	['b2276 fum_e'] 	['fum_e']
+b3708 mal_L_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 mal_L_c 	Org_b3708 ERR3 	['fum_e'] 	['b3708 fum_e']
+b3708 mal_L_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 mal_L_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 mal_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 mal_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 mal_L_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 mal_L_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 adn_p 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 adn_p 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b3708 adn_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 adn_p 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 adn_p 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 adn_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 adn_p 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 adn_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 adn_p 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 adn_p 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b3708 adn_p 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 adn_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 adn_p 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 adn_p 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 adn_p 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 adn_p 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 ru5p_D_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 ru5p_D_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 ru5p_D_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 ru5p_D_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 ru5p_D_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 ru5p_D_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 glu_D_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 glu_D_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 glu_D_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 glu_D_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+
+
+b3708 4pasp_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 4pasp_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 4pasp_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 4pasp_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b3708 acetol_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 acetol_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 acetol_c 	Org_b2276 ER285 	['b2276 glyc_e'] 	['glyc_e']
+b3708 acetol_c 	Org_b3708 ERR285 	['glyc_e'] 	['b3708 glyc_e']
+
+
+b3708 gam6p_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 gam6p_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 gam6p_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 gam6p_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 ppcoa_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 ppcoa_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 ppcoa_c 	Org_b2276 ER184 	['b2276 succ_e'] 	['succ_e']
+b3708 ppcoa_c 	Org_b3708 ERR184 	['succ_e'] 	['b3708 succ_e']
+
+
+b2276 pyr_p 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 pyr_p 	Org_b2276 ERR28 	['pyr_e'] 	['b2276 pyr_e']
+b2276 pyr_p 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 pyr_p 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 pyr_p 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 pyr_p 	Org_b3708 ER28 	['b3708 pyr_e'] 	['pyr_e']
+
+
+b3708 asp_L_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 asp_L_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 asp_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 asp_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 asp_L_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+b3708 asp_L_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 asp_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 asp_L_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 asp_L_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 asp_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 asp_L_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 asp_L_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+
+
+b3708 asp_L_e 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 asp_L_e 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 asp_L_e 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 asp_L_e 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b2276 pyr_c 	Org_b3708 ER28 	['b3708 pyr_e'] 	['pyr_e']
+b2276 pyr_c 	Org_b3708 ER284 	['b3708 lac_D_e'] 	['lac_D_e']
+b2276 pyr_c 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+b2276 pyr_c 	Org_b2276 ERR28 	['pyr_e'] 	['b2276 pyr_e']
+b2276 pyr_c 	Org_b2276 ERR284 	['lac_D_e'] 	['b2276 lac_D_e']
+b2276 pyr_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 pyr_c 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+b2276 pyr_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+
+
+b3708 kdo_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 kdo_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 kdo_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 kdo_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b2276 pyr_e 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b2276 pyr_e 	Org_b2276 ERR28 	['pyr_e'] 	['b2276 pyr_e']
+b2276 pyr_e 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b2276 pyr_e 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b2276 pyr_e 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b2276 pyr_e 	Org_b3708 ER28 	['b3708 pyr_e'] 	['pyr_e']
+
+
+b2276 1pyr5c_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 1pyr5c_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 1pyr5c_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 1pyr5c_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 1pyr5c_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 1pyr5c_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b2276 cbasp_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 cbasp_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 cbasp_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 cbasp_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 cbasp_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 cbasp_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 cbasp_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 cbasp_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 cbasp_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+b2276 cbasp_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 2pg_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 2pg_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 2pg_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 2pg_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 2pg_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 2pg_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b2276 actp_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 actp_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 actp_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 actp_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 actp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b2276 actp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 pram_c 	Org_b2276 ER45 	['b2276 ade_e'] 	['ade_e']
+b3708 pram_c 	Org_b3708 ERR133 	['nh4_e'] 	['b3708 nh4_e']
+b3708 pram_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 pram_c 	Org_b2276 ER261 	['b2276 xtsn_e'] 	['xtsn_e']
+b3708 pram_c 	Org_b2276 ER87 	['b2276 etoh_e'] 	['etoh_e']
+b3708 pram_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 pram_c 	Org_b3708 ERR91 	['co2_e'] 	['b3708 co2_e']
+b3708 pram_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 pram_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b3708 pram_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 pram_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 pram_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 pram_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 pram_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 pram_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 pram_c 	Org_b3708 ERR261 	['xtsn_e'] 	['b3708 xtsn_e']
+b3708 pram_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 pram_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 pram_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 pram_c 	Org_b2276 ER91 	['b2276 co2_e'] 	['co2_e']
+b3708 pram_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 pram_c 	Org_b2276 ER133 	['b2276 nh4_e'] 	['nh4_e']
+b3708 pram_c 	Org_b3708 ERR87 	['etoh_e'] 	['b3708 etoh_e']
+b3708 pram_c 	Org_b3708 ERR45 	['ade_e'] 	['b3708 ade_e']
+b3708 pram_c 	Org_b3708 ERR66 	['acald_e'] 	['b3708 acald_e']
+b3708 pram_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 pram_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 pram_c 	Org_b2276 ER66 	['b2276 acald_e'] 	['acald_e']
+b3708 pram_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 pram_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b3708 aspsa_c 	Org_b2276 ER212 	['b2276 asn_L_e'] 	['asn_L_e']
+b3708 aspsa_c 	Org_b2276 ER174 	['b2276 asp_L_e'] 	['asp_L_e']
+b3708 aspsa_c 	Org_b3708 ERR174 	['asp_L_e'] 	['b3708 asp_L_e']
+b3708 aspsa_c 	Org_b3708 ERR212 	['asn_L_e'] 	['b3708 asn_L_e']
+
+
+b3708 gmp_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 gmp_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 gmp_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 gmp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 gmp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 gmp_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 acser_e 	Org_b3708 ERR196 	['acser_e'] 	['b3708 acser_e']
+b3708 acser_e 	Org_b2276 ER196 	['b2276 acser_e'] 	['acser_e']
+
+
+b3708 4mop_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+b3708 4mop_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+
+
+b3708 acorn_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+b3708 acorn_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 acorn_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 acorn_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+
+
+b3708 pro_L_p 	Org_b2276 ER76 	['b2276 pro_L_e'] 	['pro_L_e']
+b3708 pro_L_p 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 pro_L_p 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 pro_L_p 	Org_b3708 ERR76 	['pro_L_e'] 	['b3708 pro_L_e']
+b3708 pro_L_p 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 pro_L_p 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b2276 13dpg_c 	Org_b2276 ERR34 	['ac_e'] 	['b2276 ac_e']
+b2276 13dpg_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 13dpg_c 	Org_b2276 ERR66 	['acald_e'] 	['b2276 acald_e']
+b2276 13dpg_c 	Org_b3708 ER34 	['b3708 ac_e'] 	['ac_e']
+b2276 13dpg_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 13dpg_c 	Org_b3708 ER66 	['b3708 acald_e'] 	['acald_e']
+
+
+b2276 pro_L_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 pro_L_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+
+
+b3708 ara5p_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 ara5p_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 ara5p_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 ara5p_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 ara5p_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 ara5p_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 ara5p_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 ara5p_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 ara5p_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 ara5p_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 ara5p_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 ara5p_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 pro_L_c 	Org_b2276 ER76 	['b2276 pro_L_e'] 	['pro_L_e']
+b3708 pro_L_c 	Org_b2276 ER197 	['b2276 akg_e'] 	['akg_e']
+b3708 pro_L_c 	Org_b3708 ERR38 	['glu_L_e'] 	['b3708 glu_L_e']
+b3708 pro_L_c 	Org_b3708 ERR76 	['pro_L_e'] 	['b3708 pro_L_e']
+b3708 pro_L_c 	Org_b3708 ERR197 	['akg_e'] 	['b3708 akg_e']
+b3708 pro_L_c 	Org_b2276 ER38 	['b2276 glu_L_e'] 	['glu_L_e']
+
+
+b3708 prpp_c 	Org_b2276 ER281 	['b2276 glyald_e'] 	['glyald_e']
+b3708 prpp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 prpp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 prpp_c 	Org_b3708 ERR281 	['glyald_e'] 	['b3708 glyald_e']
+b3708 prpp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 prpp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 prpp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 prpp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 prpp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 prpp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 prpp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 prpp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 prpp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 prpp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
+b3708 pro_L_e 	Org_b3708 ERR76 	['pro_L_e'] 	['b3708 pro_L_e']
+b3708 pro_L_e 	Org_b2276 ER76 	['b2276 pro_L_e'] 	['pro_L_e']
+
+
+alltn_e 	Org_b3708 ER160 	['b3708 o2_e'] 	['o2_e']
+alltn_e 	Org_b2276 ERR160 	['o2_e'] 	['b2276 o2_e']
+alltn_e 	Org_b2276 ER277 	['b2276 alltn_e'] 	['alltn_e']
+
+
+b2276 pro_L_p 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 pro_L_p 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+
+
+b2276 acg5sa_c 	Org_b2276 ERR216 	['adn_e'] 	['b2276 adn_e']
+b2276 acg5sa_c 	Org_b3708 ER133 	['b3708 nh4_e'] 	['nh4_e']
+b2276 acg5sa_c 	Org_b3708 ER216 	['b3708 adn_e'] 	['adn_e']
+b2276 acg5sa_c 	Org_b2276 ERR45 	['ade_e'] 	['b2276 ade_e']
+b2276 acg5sa_c 	Org_b2276 ERR133 	['nh4_e'] 	['b2276 nh4_e']
+b2276 acg5sa_c 	Org_b3708 ER45 	['b3708 ade_e'] 	['ade_e']
+
+
+b3708 prlp_c 	Org_b2276 ER284 	['b2276 lac_D_e'] 	['lac_D_e']
+b3708 prlp_c 	Org_b3708 ERR206 	['glyc_R_e'] 	['b3708 glyc_R_e']
+b3708 prlp_c 	Org_b3708 ERR284 	['lac_D_e'] 	['b3708 lac_D_e']
+b3708 prlp_c 	Org_b2276 ER216 	['b2276 adn_e'] 	['adn_e']
+b3708 prlp_c 	Org_b2276 ER206 	['b2276 glyc_R_e'] 	['glyc_R_e']
+b3708 prlp_c 	Org_b2276 ER34 	['b2276 ac_e'] 	['ac_e']
+b3708 prlp_c 	Org_b3708 ERR216 	['adn_e'] 	['b3708 adn_e']
+b3708 prlp_c 	Org_b3708 ERR127 	['ins_e'] 	['b3708 ins_e']
+b3708 prlp_c 	Org_b3708 ERR28 	['pyr_e'] 	['b3708 pyr_e']
+b3708 prlp_c 	Org_b3708 ERR34 	['ac_e'] 	['b3708 ac_e']
+b3708 prlp_c 	Org_b2276 ER127 	['b2276 ins_e'] 	['ins_e']
+b3708 prlp_c 	Org_b2276 ER28 	['b2276 pyr_e'] 	['pyr_e']
+
+
