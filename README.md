@@ -72,7 +72,7 @@ Reaction #
 Reaction Name: reaction
 
 ## Example
-![Instructions](https://github.com/aarthi31/MetQuest/blob/master/Images/Instructions.gif_
+![Instructions](https://github.com/aarthi31/MetQuest/blob/master/Images/Instructions.gif)
 
 ## Authors
 
