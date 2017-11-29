@@ -10,7 +10,8 @@ MetQuest is a dynamic programming based algorithm for identifying all possible p
 2. Install [Python 2.7.14](https://www.python.org/downloads/)
 
 Ensure that the following packages (with the specified version) are installed:
-[NetworkX 1.9.1](http://networkx.github.io/) and [cobrapy 0.5.4](https://github.com/opencobra/cobrapy), [libSBML 5.13.0](sudo pip install python-libsbml) 
+[NetworkX 1.9.1](http://networkx.github.io/), [cobrapy 0.5.4](https://github.com/opencobra/cobrapy) and
+[libSBML 5.13.0](http://sbml.org/Software/libSBML/docs/python-api/libsbml-downloading.html)
 
 Use the following commands on Terminal (Mac and Linux) to install the packages
 ```pip install cobra==0.5.4```
