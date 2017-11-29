@@ -2,6 +2,12 @@
 
 MetQuest is a dynamic programming based algorithm for identifying all possible pathways from metabolic networks between the source and the target metabolites.
 
+![Image of MetQuest](https://github.com/aarthi31/MetQuest/blob/master/Images/GitHUbMetQuest.png)
+
+## Getting started
+
+1. Clone this repository to your computer using ```git``` or [download the repository](https://github.com/aarthi31/MetQuest/) and decompress it. 
+2. 
 
 ## Input
 The input to the algorithm are the SBML file(s) of the metabolic networks of organisms, _seed metabolites_, cut-off, number of such sub-networks required. The implementation will automatically convert the SBML files to a directed bipartite graph representation. When more than one metabolic network needs to be used, the implementation will introduce a common extracellular environment through which the metabolic interactions happen. Note that the metabolites are renamed according to the model names, in order to easily distinguish the metabolites between species.
