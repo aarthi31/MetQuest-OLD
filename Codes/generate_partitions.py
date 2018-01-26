@@ -23,7 +23,7 @@ from itertools import product
 def generate_partitions(columnvalue,shortestpathvalue, checkvalue):
     allcombinations= []
     for item in shortestpathvalue:
-        allcombinations.append(range(item, columnvalue))
+        allcombinations.append(range(item, columnvalue+1))
     #print allcombinations
     allpartitions = []
     for partitions in product(*allcombinations):
