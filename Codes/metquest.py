@@ -32,7 +32,6 @@ def find_pathways(G, src, target, seedmets, cutoff):
     #else:
     lowerboundrev, lowerboundreactionrev, status_dictrev,scope_rev = forward_pass(H,scope, target, 1, src)
     status_dict = list(set(status_dictfp).intersection(set(status_dictrev)))
-    status_dict.sort()
     pathway_table = {}
     for item in list(seedmets):
         pathway_table[item] = {0: ''}
