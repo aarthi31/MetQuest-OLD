@@ -34,9 +34,9 @@ def calculate_biomass_components(G, src, tar1, alwaysexist1, cutoff, filenames):
         if len(set(pred(rxns1)) - alwaysexist1) >= 5:
             G.remove_node(rxns1)
     tar= tar1
-    lowerbound, lowerboundreaction, status_dictfp, me, alwaysexist_first = forward_pass(G, alwaysexist1, src, 0)
-    lowerboundrev, lowerboundreactionrev, status_dictrev, me1, ae2 = forward_pass(H, me, tar, 1, src)
-    status_dict = list(set(status_dictfp).intersection(set(status_dictrev)))
+    lowerbound, lowerboundreaction, status_dict, me, alwaysexist_first = forward_pass(G, alwaysexist1, src, 0)
+    #lowerboundrev, lowerboundreactionrev, status_dictrev, me1, ae2 = forward_pass(H, me, tar, 1, src)
+    #status_dict = list(set(status_dictfp).intersection(set(status_dictrev)))
     dagsfound2 = {}
     for item in list(alwaysexist1):
         dagsfound2[item] = {0: ''}
